@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mohammed Afroz - Junior Software Developer with expertise in Laravel, PHP, and Full Stack Development">
+    <meta name="author" content="Mohammed Afroz">
+    <title>Mohammed Afroz - Digital Resume</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loader-wrapper" id="loader">
+        <div class="loader"></div>
+    </div>
+
+    <div class="resume-container" id="resume">
+        <!-- Header Section with Profile Picture -->
+        <div class="header-section">
+            <div class="header-overlay"></div>
+            <div class="header-content">
+                <div class="profile-picture-container">
+                    <div class="profile-picture">
+                        <img src="profile.jpeg" alt="Mohammed Afroz" id="profileImg">
+                        <div class="profile-ring"></div>
+                    </div>
+                </div>
+                
+                <div class="name-title">
+                    <h1 class="animate-text">Mohammed Afroz</h1>
+                    <h2 class="animate-text">Junior Software Developer</h2>
+                    <div class="title-underline"></div>
+                </div>
+                
+                <div class="contact-info">
+                    <div class="contact-item" data-aos="fade-up" data-aos-delay="100">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Hyderabad, Telangana</span>
+                    </div>
+                    <div class="contact-item" data-aos="fade-up" data-aos-delay="200">
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:9182297010">+91 9182297010</a>
+                    </div>
+                    <div class="contact-item" data-aos="fade-up" data-aos-delay="300">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:mdafroz97010@gmail.com">mdafroz97010@gmail.com</a>
+                    </div>
+                    <div class="contact-item" data-aos="fade-up" data-aos-delay="400">
+                        <i class="fab fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/mdafroz08" target="_blank">LinkedIn</a>
+                    </div>
+                    <div class="contact-item" data-aos="fade-up" data-aos-delay="500">
+                        <i class="fab fa-github"></i>
+                        <a href="https://github.com/Afroz24" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Left Column -->
+            <div class="left-column">
+                <!-- Profile Section -->
+                <div class="section profile-section" data-aos="fade-right">
+                    <div class="section-header">
+                        <i class="fas fa-user section-icon"></i>
+                        <h3 class="section-title">About Me</h3>
+                    </div>
+                    <p class="profile-text">
+                        Software Developer at Robotico Digital with 2 years of experience in full stack development. 
+                        Demonstrated ability to deliver requirements under tight deadlines. Passionate about creating 
+                        efficient, scalable solutions and staying current with the latest technologies.
+                    </p>
+                </div>
+                
+                <!-- Skills Section -->
+                <div class="section skills-section" data-aos="fade-right" data-aos-delay="100">
+                    <div class="section-header">
+                        <i class="fas fa-code section-icon"></i>
+                        <h3 class="section-title">Technical Skills</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-laravel skill-icon"></i>
+                            <span>Laravel</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-php skill-icon"></i>
+                            <span>Core PHP</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database skill-icon"></i>
+                            <span>SQL</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-bootstrap skill-icon"></i>
+                            <span>Bootstrap</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js-square skill-icon"></i>
+                            <span>JavaScript</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-html5 skill-icon"></i>
+                            <span>HTML & CSS</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt skill-icon"></i>
+                            <span>Git & GitHub</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Education Section -->
+                <div class="section education-section" data-aos="fade-right" data-aos-delay="200">
+                    <div class="section-header">
+                        <i class="fas fa-graduation-cap section-icon"></i>
+                        <h3 class="section-title">Education</h3>
+                    </div>
+                    <div class="education-item">
+                        <div class="education-icon">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <div class="education-content">
+                            <h4 class="degree">Bachelor of Technology</h4>
+                            <p class="field">Computer Science and Engineering</p>
+                            <p class="institution">St Martin's Engineering College</p>
+                            <p class="duration">
+                                <i class="far fa-calendar-alt"></i> 2017 - 2021
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interests Section -->
+                <div class="section interests-section" data-aos="fade-right" data-aos-delay="300">
+                    <div class="section-header">
+                        <i class="fas fa-heart section-icon"></i>
+                        <h3 class="section-title">Interests</h3>
+                    </div>
+                    <div class="interests-grid">
+                        <div class="interest-item">
+                            <i class="fas fa-laptop-code"></i>
+                            <span>Coding</span>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-book-reader"></i>
+                            <span>Learning</span>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-project-diagram"></i>
+                            <span>Problem Solving</span>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-users"></i>
+                            <span>Teamwork</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Right Column -->
+            <div class="right-column">
+                <!-- Work Experience Section -->
+                <div class="section experience-section" data-aos="fade-left">
+                    <div class="section-header">
+                        <i class="fas fa-briefcase section-icon"></i>
+                        <h3 class="section-title">Work Experience</h3>
+                    </div>
+                    
+                    <div class="timeline">
+                        <div class="experience-item" data-aos="fade-up">
+                            <div class="experience-dot"></div>
+                            <div class="experience-card">
+                                <div class="experience-header">
+                                    <div>
+                                        <h4 class="company">
+                                            <i class="fas fa-building"></i>
+                                            Robotico Digital Pvt. Ltd.
+                                        </h4>
+                                        <p class="position">Software Developer</p>
+                                    </div>
+                                    <span class="duration-badge">
+                                        <i class="far fa-calendar-alt"></i>
+                                        Feb 2025 – Present
+                                    </span>
+                                </div>
+                                <ul class="responsibilities">
+                                    <li>
+                                        <i class="fas fa-check-circle"></i>
+                                        Developed RESTful APIs using Laravel to support various application features and data interactions.
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check-circle"></i>
+                                        Provided API integration support by collaborating with frontend teams to ensure smooth and reliable communication between frontend and backend systems.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="experience-item" data-aos="fade-up" data-aos-delay="100">
+                            <div class="experience-dot"></div>
+                            <div class="experience-card">
+                                <div class="experience-header">
+                                    <div>
+                                        <h4 class="company">
+                                            <i class="fas fa-building"></i>
+                                            Techril Software Solutions Pvt. Ltd.
+                                        </h4>
+                                        <p class="position">Software Developer</p>
+                                    </div>
+                                    <span class="duration-badge">
+                                        <i class="far fa-calendar-alt"></i>
+                                        Dec 2023 – 2024
+                                    </span>
+                                </div>
+                                <ul class="responsibilities">
+                                    <li>
+                                        <i class="fas fa-check-circle"></i>
+                                        Developed and maintained Laravel-based web applications.
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check-circle"></i>
+                                        Implemented CRUD operations and optimized DB queries.
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check-circle"></i>
+                                        Engaged in continuous learning and kept abreast of Laravel updates and best practices.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Projects Section -->
+                <div class="section projects-section" data-aos="fade-left" data-aos-delay="100">
+                    <div class="section-header">
+                        <i class="fas fa-project-diagram section-icon"></i>
+                        <h3 class="section-title">Featured Projects</h3>
+                    </div>
+                    
+                    <div class="projects-grid">
+                        <div class="project-card" data-aos="zoom-in">
+                            <div class="project-header">
+                                <div class="project-icon">
+                                    <i class="fas fa-gem"></i>
+                                </div>
+                                <h4 class="project-name">Sresht Diamonds</h4>
+                            </div>
+                            <p class="project-description">
+                                A jewelry e-commerce website with an admin dashboard to manage products, orders, and customers. 
+                                Customers can explore and purchase diamond jewelry online.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Laravel</span>
+                                <span class="tag">E-commerce</span>
+                                <span class="tag">Admin Panel</span>
+                            </div>
+                            <div class="project-role">
+                                <strong><i class="fas fa-user-tie"></i> My Role:</strong> 
+                                Was a member of team and delivered all requirements on time.
+                            </div>
+                        </div>
+                        
+                        <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="project-header">
+                                <div class="project-icon">
+                                    <i class="fas fa-wifi"></i>
+                                </div>
+                                <h4 class="project-name">YES 5G – Internal Admin Panels</h4>
+                            </div>
+                            <p class="project-description">
+                                A Malaysian telecom service provider offering uncapped 5G mobile data plans, broadband, and device bundles. 
+                                Users can buy 5G SIMs, smartphones and manage their accounts online.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Laravel</span>
+                                <span class="tag">REST API</span>
+                                <span class="tag">Integration</span>
+                            </div>
+                            <div class="project-role">
+                                <strong><i class="fas fa-user-tie"></i> My Role:</strong> 
+                                Developed RESTful APIs for internal admin panels and worked closely with frontend team for API Integration.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="footer-content">
+                <p>&copy; 2026 Mohammed Afroz. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/mdafroz08" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Afroz24" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:mdafroz97010@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Download & Theme Toggle Buttons -->
+    <button class="btn-download" onclick="window.print()" title="Download as PDF">
+        <i class="fas fa-download"></i>
+    </button>
+
+    <button class="btn-theme-toggle" id="themeToggle" title="Toggle Dark Mode">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <button class="btn-scroll-top" id="scrollTop" title="Back to Top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
