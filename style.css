@@ -1275,23 +1275,23 @@ body.dark-mode {
     .btn-download,
     .btn-theme-toggle,
     .btn-scroll-top {
-        width: 30px;
-        height: 30px;
+        width: 50px;
+        height: 50px;
         font-size: 1.1rem;
     }
     
     .btn-download {
-        bottom: 10px;
+        bottom: 20px;
         right: 20px;
     }
     
     .btn-theme-toggle {
-        bottom: 65px;
+        bottom: 85px;
         right: 20px;
     }
     
     .btn-scroll-top {
-        bottom: 120px;
+        bottom: 150px;
         right: 20px;
     }
 }

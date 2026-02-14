@@ -92,7 +92,13 @@ function initScrollToTop() {
     const scrollTopBtn = document.getElementById('scrollTop');
     
     window.addEventListener('scroll', function() {
-        if (window.pageYOffset > 900) {
+
+        const pageHeight = document.documentElement.scrollHeight; //Total page height
+        const screenHeight = window.innerHeight; //Screen height
+        const scrollPosition = window.pageYOffset; //Current scroll position from top
+        const halfPage = (pageHeight - screenHeight) / 2; //Half of the scrollable page height
+
+        if (scrollPosition > halfPage) {
             scrollTopBtn.classList.add('show');
         } else {
             scrollTopBtn.classList.remove('show');
