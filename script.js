@@ -92,7 +92,7 @@ function initScrollToTop() {
     const scrollTopBtn = document.getElementById('scrollTop');
     
     window.addEventListener('scroll', function() {
-        if (window.pageYOffset > 300) {
+        if (window.pageYOffset > 900) {
             scrollTopBtn.classList.add('show');
         } else {
             scrollTopBtn.classList.remove('show');
@@ -454,4 +454,12 @@ if (window.performance) {
             console.log(`📊 Page loaded in: ${pageLoadTime}ms`);
         }, 0);
     });
+}
+
+// ====================================
+// Print Preview Modal
+// ====================================
+function showPrintPreview() {
+    const modal = new bootstrap.Modal(document.getElementById('printPreviewModal'));
+    modal.show();
 }
